@@ -1,0 +1,193 @@
+<!Ryan McLoughlin,C21431604>
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <style>
+        menu{
+            display: inline-flex;
+        }
+        li{
+            padding-right: 25px;
+            list-style: none;
+        }
+
+        body
+        {
+            font-family: Sans-Serif ;
+            color: rgb(59, 59, 59) ;
+            margin-top:10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10px;
+        }
+        h3{
+            padding-top: -15px;
+        }
+
+        h1{
+            font-size: 35px;
+        }
+        p,p2{
+            color: grey;
+        }
+        #headlist{
+            color: Black;
+
+        }
+
+        #smalllink{
+            color:red;
+        }
+        #news{
+            color: black;
+        }
+        #list
+        {
+            padding-left:-25px;
+            list-style: none;
+        }
+        #imgright{
+
+            float:right;
+            margin: 0 15px 0 0;
+        }
+        #imgleft{
+
+            float:left;
+            margin: 0 15px 0 0;
+        }
+
+        #banner
+        {
+            float: left;
+            width: 100%;
+        }
+        #Aside{
+            float:left;
+            width: 60%;
+            margin-left: 50px;
+        }
+        #AsideRight{
+            margin-top: -50px;
+            float:right;
+            width: 30%;
+        }
+        #headerbar{
+            width: 70%;
+            padding-left:55px;
+            padding-top: 20px;
+
+        }
+
+        .locationFlex{
+            margin-left: -70px;
+            width:100%;
+            height: 80px;
+            display:flex;
+            flex-direction: row;
+            justify-content: left;
+            list-style: none;
+            padding-top: none;
+
+        }
+        .location{
+
+            height:70px;
+        }
+
+        .flex-container
+        {
+            margin-left: -40px;
+            height: 100%;
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            flex-flow: row wrap;
+            flex-wrap : wrap;
+            justify-content: left;
+            justify-content: top;
+            list-style: none;
+            padding-top: none;
+        }
+
+        .content
+        {
+            width: 100%;
+        }
+
+
+        @media screen and (max-width: 768px)
+        {
+            #container 
+            {
+                width: 90%;
+                margin: auto;
+            }
+
+            h1 
+            {
+                font-size: 200%
+            }
+        }
+    </style>
+    <body>
+        <header>
+            <a href="#Login"><img id="banner" src="topbanner.jpg"></a>
+            <a href="#news"><img id="banner" src="lowbanner.jpg"></a>
+        </header>
+        <div id="headerbar">
+            <menu class="locationFlex" >
+                <li class="location"></li><a id="headlist" href="#Region">World   |</a></li>
+                <li class="location"></li><a id="headlist" href="#Region">Africa  |</a></li>
+                <li class="location"></li><a id="headlist" href="#Region">Asia    |</a></li>
+                <li class="location"></li><a id="headlist" href="#Region">Australia   |</a></li>
+                <li class="location"></li><a id="headlist" href="#Region">Europe  |</a></li>
+                <li class="location"></li><a id="headlist" href="#Region">Latin America   |</a></li>
+                <li class="location"></li><a id="headlist" href="#MiddleEast">Middle East |</a></li>
+                <li class="location"></li><a id="headlist" href="#US">US & Canada</a></li>
+            </menu>
+
+        </div>
+        <aside id="Aside">
+            
+
+            <div style="margin-top: -60px;">
+                <H1 id="US">New US Shutdown looms as talks stall</H1>
+                <img id="imgright" src="mainnews.jpg">
+                <p>Negotiators hoping to hit a Friday Deadline disagree on issues including money for a border wall </p>
+                <p2>1 hour ago | <a id="smalllink" href="#US">US & Canada</a></p2>
+
+                <ul id="list" style ="margin-left: -35px;">
+                    <li id="list"><b>What is a shutdown?</b></li>
+                    <br>
+                    <li id="list"><b>How the last shutdown hurt</b></li>
+                    <br>
+                    <li id="list"><b>How tech fills border wall gaps</b></li>
+                    <br>
+                    <li id="list"><b>Trump's wall - in seven charts</b></li>
+                    <br>
+                </ul>
+            </div>
+        </aside>
+        <aside id="AsideRight">
+            <div>
+                <h2>Watch/Listen</h2>
+                <p><img src="live.jpg"> World Service Radio</p>
+            </div>
+            <div>
+                <ul class="flex-container">
+                    <li class="content"><a id="news" href="#MiddleEast"><img id ="imgleft" src="video1.jpg"><h3 style="padding-top: -15px;">Iran marks revolution's 40th anniversary</h3></a><p2>2 hours ago | <a id="smalllink" href="#MiddleEast">Middle East</a></p2></li>
+                    <br>
+                    <li class="content"><a id="news" href="#US"><img id ="imgleft" src="video2.jpg"><h3 style="padding-top: -15px;">Life in the poorest City in the US</h3></a><p2>11th of Febuary 2019</p2> | <a id="smalllink" href="#US">US & Canada</a></p2></li>
+                </ul>
+            </div>
+
+        </aside>
+
+    </body>

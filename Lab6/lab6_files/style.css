@@ -1,0 +1,93 @@
+body
+    {
+        font-family: Sans-Serif ;
+        color: rgb(59, 59, 59) ;
+        margin-top:10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+
+#banner
+{
+    float: left;
+    width: 100%;
+}
+#Aside{
+    float:left;
+    width: 60%;
+    margin-left: -5px;
+}
+#AsideRight{
+    float:right;
+
+    width: 35%;
+}
+#AsideImg{
+    width:90%;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+#login{
+    color:black;
+}
+#allright{
+    padding-left: 50px;
+}
+#bigpic{
+    padding-left: 50px;
+    width:100%;
+}
+a{
+    color:black;
+}
+
+menu,ul{
+    display: inline;
+    list-style-image: url("arrow.gif");
+    list-style-position: inside;
+}
+h2{
+    color: rgb(33, 136, 188) ;
+}
+
+h1{
+    color: rgb(5, 51, 73) ;
+    padding-left: 6%;
+    width:50%;
+}
+
+
+.flex-container
+{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-wrap : wrap;
+    justify-content: left;
+    list-style: none;
+    padding-top: none;
+}
+
+.content
+{
+    width: 50%;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #container 
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    h1 
+    {
+        font-size: 200%
+    }
+}

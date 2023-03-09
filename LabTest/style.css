@@ -1,0 +1,120 @@
+menu{
+    display: inline-flex;
+}
+li{
+    padding-right: 25px;
+    list-style: none;
+}
+
+body
+    {
+        font-family: Sans-Serif ;
+        color: rgb(59, 59, 59) ;
+        margin-top:10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+h3{
+    padding-top: -15px;
+}
+
+h1{
+    font-size: 35px;
+}
+p,p2{
+    color: grey;
+}
+#headlist{
+    color: Black;
+    
+}
+
+#smalllink{
+    color:red;
+}
+#news{
+    color: black;
+}
+#list
+{
+    padding-left:-25px;
+    list-style: none;
+}
+#imgright{
+
+    float:right;
+    margin: 0 15px 0 0;
+}
+#imgleft{
+
+    float:left;
+    margin: 0 15px 0 0;
+}
+
+#banner
+{
+    float: left;
+    width: 100%;
+}
+#Aside{
+    float:left;
+    width: 65%;
+    margin-left: 50px;
+}
+#AsideRight{
+    float:right;
+    width: 30%;
+    margin-top: 35px;
+}
+
+.locationFlex{
+    margin-left: -70px;
+    width:100%;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    padding-top: none;
+
+}
+.location{
+
+    height:70px;
+}
+
+.flex-container
+{
+    margin-left: -40px;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-wrap : wrap;
+    justify-content: left;
+    justify-content: top;
+    list-style: none;
+    padding-top: none;
+}
+
+.content
+{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #container 
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    h1 
+    {
+        font-size: 200%
+    }
+}
